@@ -54,7 +54,7 @@ router.post('/', async (req, res) => {
         // Hash the password
         const hashedPassword = await bcrypt.hash(pword, 10);
 
-       
+
 
         // Insert the new user into USER_ACC table
         const result = await connection.execute(
