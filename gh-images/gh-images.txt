@@ -1,0 +1,1 @@
+This folder contains repository banners, README images, and HTML links used for GitHub documentation and presentation.
