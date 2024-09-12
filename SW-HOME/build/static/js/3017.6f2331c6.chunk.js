@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkRK_Maxx=self.webpackChunkRK_Maxx||[]).push([[3017],{3017:(a,s,e)=>{e.r(s),e.d(s,{default:()=>l});e(2483);var r=e(6723);const l=a=>(0,r.jsx)("div",{className:`progress ${a.className}`,style:{height:1},children:(0,r.jsx)("div",{className:"progress-bar",role:"progressbar",style:{width:"25%"},"aria-valuenow":25,"aria-valuemin":0,"aria-valuemax":100})})}}]);
+//# sourceMappingURL=3017.6f2331c6.chunk.js.map
