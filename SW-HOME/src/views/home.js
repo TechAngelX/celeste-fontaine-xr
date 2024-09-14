@@ -1,6 +1,7 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../App.css';
 
 const Home = ({ data = {} }) => {
     const { banner = [], iconProducts = [] } = data;
@@ -12,7 +13,7 @@ const Home = ({ data = {} }) => {
             </header>
 
             <main>
-                <div className="container-fluid bg-light mb-3">
+                <div className="container-fluid bg mb-3">
                     <div className="row g-3">
                         <div className="col-md-9">
                             <div id="carouselHomeBanner" className="carousel slide">
