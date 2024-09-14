@@ -13,7 +13,7 @@ const Home = ({ data = {} }) => {
             </header>
 
             <main>
-                <div className="container-fluid bg mb-3">
+                <div className="container-fluid bg-light mb-3">
                     <div className="row g-3">
                         <div className="col-md-9">
                             <div id="carouselHomeBanner" className="carousel slide">
@@ -46,9 +46,11 @@ const Home = ({ data = {} }) => {
                                                             <div className="card-body">
                                                                 <h5 className="card-title">{product.title || 'Product Title'}</h5>
                                                                 <p className="card-text">{product.text || 'Product Description'}</p>
-                                                                <a href={product.to || '#'} className="btn btn-primary">
+                                                                <a href={product.to || '#'} className="btn button">
                                                                     {product.tips || 'Learn More'}
                                                                 </a>
+
+                                                                <a href="promo" className="btn button">Promo</a>
                                                             </div>
                                                         </div>
                                                     </div>

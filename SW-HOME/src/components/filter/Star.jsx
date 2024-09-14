@@ -1,8 +1,8 @@
 const FilterStar = (props) => {
   return (
-    <div className="card mb-3">
-      <div
-        className="card-header fw-bold text-uppercase accordion-icon-button"
+      <div className="card mb-3 accordion  fade-in">
+        <div
+            className="card-header fw-bold text-uppercase accordion-icon-button"
         data-bs-toggle="collapse"
         data-bs-target="#filterStar"
         aria-expanded="true"
