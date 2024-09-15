@@ -24,38 +24,40 @@ const ProductDetailView = () => {
           <div className="row mb-3">
             <div className="col-md-5 text-center">
               <img
-                src="../../images/products/tshirt_red_480x400.webp"
-                className="img-fluid mb-3"
-                alt=""
+                  src={`${process.env.PUBLIC_URL}/images/products/tshirt_red_480x400.webp`}
+                  className="img-fluid mb-3"
+                  alt=""
               />
               <img
-                src="../../images/products/tshirt_grey_480x400.webp"
-                className="border border-secondary me-2"
-                width="75"
-                alt="..."
+                  src={`${process.env.PUBLIC_URL}/images/products/tshirt_grey_480x400.webp`}
+                  className="border border-secondary me-2"
+                  width="75"
+                  alt="..."
               />
               <img
-                src="../../images/products/tshirt_black_480x400.webp"
-                className="border border-secondary me-2"
-                width="75"
-                alt="..."
+                  src={`${process.env.PUBLIC_URL}/images/products/tshirt_black_480x400.webp`}
+                  className="border border-secondary me-2"
+                  width="75"
+                  alt="..."
               />
               <img
-                src="../../images/products/tshirt_green_480x400.webp"
-                className="border border-secondary me-2"
-                width="75"
-                alt="..."
+                  src={`${process.env.PUBLIC_URL}/images/products/tshirt_green_480x400.webp`}
+                  className="border border-secondary me-2"
+                  width="75"
+                  alt="..."
               />
+
+
             </div>
             <div className="col-md-7">
               <h1 className="h5 d-inline me-2">Great product name goes here</h1>
               <span className="badge bg-success me-2">New</span>
               <span className="badge bg-danger me-2">Hot</span>
               <div className="mb-3">
-                <i className="bi bi-star-fill text-warning me-1" />
-                <i className="bi bi-star-fill text-warning me-1" />
-                <i className="bi bi-star-fill text-warning me-1" />
-                <i className="bi bi-star-fill text-warning me-1" />
+                <i className="bi bi-star-fill text-warning me-1"/>
+                <i className="bi bi-star-fill text-warning me-1"/>
+                <i className="bi bi-star-fill text-warning me-1"/>
+                <i className="bi bi-star-fill text-warning me-1"/>
                 <i className="bi bi-star-fill text-secondary me-1" />|{" "}
                 <span className="text-muted small">
                   42 ratings and 4 reviews
