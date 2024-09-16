@@ -29,12 +29,11 @@ const ContactUsView = () => {
                 Customer Support
               </h6>
               <address>
-                <strong>Birkbeck, University of London
-                  </strong>
+                <strong>Birkbeck, Univ of London.</strong>
                 <br />
-                Malet Street
+                Malet St,
                 <br />
-                London WC1E 7HX
+                London, WC1E 7HX
                 <br />
                 <i className="bi bi-telephone"></i>{" "}
                 <abbr title="Phone">P:</abbr> 020 3926 3926
@@ -43,12 +42,11 @@ const ContactUsView = () => {
                 Head Office
               </h6>
               <address>
-                <strong>Birkbeck, University of London
-                </strong>
+                <strong>Birkbeck, Univ of London</strong>
                 <br />
-                Malet Street
+                Malet St,
                 <br />
-                London WC1E 7HX
+                London, WC1E 7HX
                 <br />
                 <i className="bi bi-telephone"></i>{" "}
                 <abbr title="Phone">P:</abbr> 020 3926 3926
@@ -58,7 +56,7 @@ const ContactUsView = () => {
           <div className="card">
             <div className="google-maps">
               <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2421.6859735963685!2d-0.1268882844349185!3d51.524379679637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b2cc027a479%3A0xd0a0b89ea5c3a38!2sBirkbeck%2C%20University%20of%20London%2C%20Malet%20St%2C%20London%20WC1E%204DD%2C%20UK!5e0!3m2!1sen!2sus!4v1697556634212!5m2!1sen!2sus"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2385.545674517334!2d-0.13003718403458024!3d51.52016986892943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b2d5c7d758b%3A0xd3079c871a5dcb3!2sBirkbeck%2C%20University%20of%20London%2C%20Malet%20St%2C%20London%20WC1E%207HX%2C%20UK!5e0!3m2!1sen!2sin!4v1695475047835!5m2!1sen!2sin"
                 width={400}
                 height={300}
                 frameBorder={0}

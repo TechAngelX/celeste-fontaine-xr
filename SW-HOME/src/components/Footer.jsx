@@ -37,14 +37,12 @@ const Footer = () => {
       <div className="container-fluid bg-dark text-white">
         <div className="row ">
           <div className="col-md-3 py-3">
-            <div className="h6">Powered by softWEAR</div>
+            <div className="h6">TO BE ANNOUNCED</div>
             <hr />
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
+              Our Services connect people around the world,
+              both online and offline, to make, sell, and buy unique goods.
+                          </p>
           </div>
           <div className="col-md-3 py-3">
             <div className="h6">Products</div>
@@ -142,11 +140,11 @@ const Footer = () => {
             <div className="h6">Address</div>
             <hr />
             <address>
-              <strong>Birkbeck, University of London</strong>
+              <strong>Birkbeck, Univ of London</strong>
               <br />
-              Malet Suite
+             Malet St
               <br />
-              London WC1E 7HX
+              London, WC1E 7HX
               <br />
               <abbr title="Phone">P:</abbr> 020 3926 3926
             </address>
@@ -176,48 +174,47 @@ const Footer = () => {
             </Link>
           </div>
           <div className="col-md-3 py-2">
-            © {new Date().getFullYear()} TechAngelX (
-            {process.env.REACT_APP_VERSION})
+            © {new Date().getFullYear()} TechAngelX
           </div>
           <div className="col-md-3 py-2 bg-white">
             <img
-              src="../../images/payment/american_express.webp"
+              src="/images/payment/american_express.webp"
               width="32"
               alt="American Express"
               className="me-2"
             />
             <img
-              src="../../images/payment/maestro.webp"
+              src="/images/payment/maestro.webp"
               width="32"
               alt="Maestro"
               className="me-2"
             />
             <img
-              src="../../images/payment/netbanking.webp"
+              src="/images/payment/netbanking.webp"
               width="32"
               alt="Net Banking"
               className="me-2"
             />
             <img
-              src="../../images/payment/paypal.webp"
+              src="/images/payment/paypal.webp"
               width="32"
               alt="Paypal"
               className="me-2"
             />
             <img
-              src="../../images/payment/rupay.webp"
+              src="/images/payment/rupay.webp"
               width="32"
               alt="Rupay"
               className="me-2"
             />
             <img
-              src="../../images/payment/upi.webp"
+              src="/images/payment/upi.webp"
               width="32"
               alt="UPI"
               className="me-2"
             />
             <img
-              src="../../images/payment/visa.webp"
+              src="/images/payment/visa.webp"
               width="32"
               alt="Visa"
               className="me-2"

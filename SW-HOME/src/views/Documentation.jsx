@@ -18,7 +18,7 @@ const DocumentationView = () => {
               aria-controls="v-pills-Introduction"
               aria-selected="true"
             >
-              Virtual Wardrobe
+              Introduction
             </a>
             <a
               className="nav-link"
@@ -29,7 +29,7 @@ const DocumentationView = () => {
               aria-controls="v-pills-sr"
               aria-selected="false"
             >
-              Wishlist
+              System Requirements
             </a>
             <a
               className="nav-link"
@@ -63,7 +63,7 @@ const DocumentationView = () => {
               role="tabpanel"
               aria-labelledby="v-pills-Introduction-tab"
             >
-              <h4>Just an auxilary page for something i might add later.</h4>
+              <h4>Introduction</h4>
               <hr />
               {/* <div className="container">
           <div className="row g-3 justify-content-md-center">
@@ -117,7 +117,7 @@ const DocumentationView = () => {
               role="tabpanel"
               aria-labelledby="v-pills-sr-tab"
             >
-              <h4>Wishlist</h4>
+              <h4>System Requirements</h4>
               <hr />
             </div>
             <div
@@ -126,7 +126,7 @@ const DocumentationView = () => {
               role="tabpanel"
               aria-labelledby="v-pills-install-tab"
             >
-              <h4>Friends/Family Wishlist</h4>
+              <h4>Installation</h4>
               <hr />
             </div>
             <div
@@ -135,7 +135,7 @@ const DocumentationView = () => {
               role="tabpanel"
               aria-labelledby="v-pills-screenshots-tab"
             >
-              <h4>Thoughts & Ideas</h4>
+              <h4>Screenshots</h4>
               <hr />
             </div>
           </div>

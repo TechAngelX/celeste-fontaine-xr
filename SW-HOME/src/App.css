@@ -1,94 +1,13 @@
-/* General Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Apple-style fade-in */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-/* Apply this class to any element you want to fade in */
-.fade-in {
-  animation: fadeIn 3s ease-in-out; /* 0.5s is the duration of the fade-in effect */
-}
-/* Glassmorphic Card */
-.glass-card {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 16px;
-  padding: 20px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-/* Soft Shadows and Rounded Corners */
-.card, .button, .modal {
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-/* Minimalist Typography */
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  color: #333;
-}
-
-h1, h2, h3 {
-  font-weight: 600;
-  margin: 0 0 20px;
-}
-
-p {
-  line-height: 1.6;
-  color: #666;
-}
-
-
-/* Changing Background on Scroll */
-.navbar.scrolled {
-  background: rgba(255, 255, 255, 1);
-}
-
-.image-animate {
-  transition: transform 0.3s ease-in-out;
-}
-
-.image-animate:hover {
-  transform: scale(1.05);
-}
-
-/* Rotate image */
-.rotate {
-  transition: transform 0.5s ease-in-out;
-}
-
-.rotate:hover {
-  transform: rotate(15deg);
-}
-
-
-
-/* Required field indicator */
 .required:after {
   content: " *";
-  color: #ff453a; /* Soft red */
+  color: red;
 }
 
-/* Google Maps Container */
 .google-maps {
   position: relative;
   padding-bottom: 75%;
   height: 0;
   overflow: hidden;
-  border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Soft shadow */
 }
 
 .google-maps iframe {
@@ -97,12 +16,10 @@ p {
   left: 0;
   width: 100% !important;
   height: 100% !important;
-  border-radius: 10px;
 }
 
-/* Social Media Background Colors */
 .bg-facebook {
-  background-color: #1877f2;
+  background-color: #3b5998;
 }
 
 .bg-twitter {
@@ -114,16 +31,13 @@ p {
 }
 
 .bg-instagram {
-  background-color: #c13584;
+  background-color: #e1306c;
 }
 
-/* Cover Background */
 .bs-cover {
   background-size: cover;
-  border-radius: 10px;
 }
 
-/* Utility Classes */
 .r-0 {
   right: 0;
 }
@@ -140,29 +54,18 @@ p {
   vertical-align: -0.125em;
 }
 
-/* Breadcrumb Styling */
 .breadcrumb {
   padding: 0.5rem 1rem;
-  background-color: #1c1c1e; /* Darker shade */
-  color: #e0e0e0;
-  border-radius: 8px;
+  background-color: #e9ecef;
 }
 
-/* Accordion Button Styling */
 .accordion-icon-button {
   display: flex;
-  border-radius: 8px;
-  background-color: #2c2c2e;
-  color: #e0e0e0;
-  transition: background-color 0.3s ease;
-}
-
-.accordion-icon-button:hover {
-  background-color: #3a3a3c; /* Slightly lighter on hover */
+  border-radius: inherit;
 }
 
 .accordion-icon-button:not(.collapsed)::after {
-  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2016%2016'%20fill%3D'%23fff'%3E%3Cpath%20fill-rule%3D'evenodd'%20d%3D'M1.646%204.646a.5.5%200%200%201%20.708%200L8%2010.293l5.646-5.647a.5.5%200%200%201%20.708.708l-6%206a.5.5%200%200%201-.708%200l-6-6a.5.5%200%200%201%200-.708z'%2F%3E%3C%2Fsvg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2016%2016'%20fill%3D'%23%7B%24accordion-icon-color%7D'%3E%3Cpath%20fill-rule%3D'evenodd'%20d%3D'M1.646%204.646a.5.5%200%200%201%20.708%200L8%2010.293l5.646-5.647a.5.5%200%200%201%20.708.708l-6%206a.5.5%200%200%201-.708%200l-6-6a.5.5%200%200%201%200-.708z'%2F%3E%3C%2Fsvg%3E");
   transform: rotate(-180deg);
   background-position-y: center;
 }
@@ -173,42 +76,12 @@ p {
   width: 20px;
   margin-left: auto;
   content: "";
-  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2016%2016'%20fill%3D'%23fff'%3E%3Cpath%20fill-rule%3D'evenodd'%20d%3D'M1.646%204.646a.5.5%200%200%201%20.708%200L8%2010.293l5.646-5.647a.5.5%200%200%201%20.708.708l-6%206a.5.5%200%200%201-.708%200l-6-6a.5.5%200%200%201%200-.708z'%2F%3E%3C%2Fsvg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2016%2016'%20fill%3D'%23%7B%24accordion-icon-active-color%7D'%3E%3Cpath%20fill-rule%3D'evenodd'%20d%3D'M1.646%204.646a.5.5%200%200%201%20.708%200L8%2010.293l5.646-5.647a.5.5%200%200%201%20.708.708l-6%206a.5.5%200%200%201-.708%200l-6-6a.5.5%200%200%201%200-.708z'%2F%3E%3C%2Fsvg%3E");
   background-repeat: no-repeat;
   background-size: 1.25rem;
-  transition: transform 0.2s ease-in-out;
+  transition: transform .2s ease-in-out;
 }
 
 .accordion-icon-button.collapsed {
   border-bottom: none;
-}
-
-/* Button Styling */
-button {
-  background-color: #007aff; /* Apple blue */
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: #0056d2; /* Darker shade on hover */
-}
-
-/* Container Styling */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.container-fluid {
-  width: 100%;
-  padding: 20px;
-  background-color: #1c1c1e;
-  border-radius: 10px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
