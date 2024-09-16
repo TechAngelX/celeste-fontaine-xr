@@ -9,7 +9,7 @@ const StarZoneView = () => {
           <div className="col-md-6">
             <Link to="/">
               <img
-                src="../../images/banner/Apple.webp"
+                src="/images/banner/Apple.webp"
                 className="img-fluid rounded"
                 alt="..."
               />
@@ -20,7 +20,7 @@ const StarZoneView = () => {
               <div className="col">
                 <Link to="/">
                   <img
-                    src="../../images/banner/Philips.webp"
+                    src="/images/banner/Philips.webp"
                     className="img-fluid rounded"
                     alt="..."
                   />
@@ -29,7 +29,7 @@ const StarZoneView = () => {
               <div className="col">
                 <Link to="/">
                   <img
-                    src="../../images/banner/Dell.webp"
+                    src="/images/banner/Dell.webp"
                     className="img-fluid rounded"
                     alt="..."
                   />
@@ -40,7 +40,7 @@ const StarZoneView = () => {
               <div className="col">
                 <Link to="/">
                   <img
-                    src="../../images/banner/Quick-heal.webp"
+                    src="/images/banner/Quick-heal.webp"
                     className="img-fluid rounded"
                     alt="..."
                   />
@@ -49,7 +49,7 @@ const StarZoneView = () => {
               <div className="col">
                 <Link to="/">
                   <img
-                    src="../../images/banner/Tablets.webp"
+                    src="/images/banner/Tablets.webp"
                     className="img-fluid rounded"
                     alt="..."
                   />
@@ -62,7 +62,7 @@ const StarZoneView = () => {
           <div className="col">
             <Link to="/">
               <img
-                src="../../images/banner/Laptops.webp"
+                src="/images/banner/Laptops.webp"
                 className="img-fluid rounded"
                 alt="..."
               />

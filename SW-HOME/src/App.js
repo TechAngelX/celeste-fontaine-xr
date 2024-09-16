@@ -1,3 +1,4 @@
+// src/App.js
 import React, { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -6,6 +7,8 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import TopMenu from './components/TopMenu';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import ModelViewer from './ModelViewer';
+
 import './App.min.css';
 
 // Lazy load components
@@ -58,6 +61,7 @@ function App() {
                         <Route path="/support" element={<SupportView />} />
                         <Route path="/blog" element={<BlogView />} />
                         <Route path="/blog/detail" element={<BlogDetailView />} />
+                        <Route path="/model-viewer" element={<ModelViewer />} /> {/* Added route for ModelViewer */}
                         <Route path="/500" element={<InternalServerErrorView />} />
                         <Route path="*" element={<NotFoundView />} />
                     </Routes>

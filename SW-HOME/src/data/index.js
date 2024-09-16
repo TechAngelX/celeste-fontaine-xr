@@ -2,7 +2,7 @@ export const data = {
   banner: [
     {
       to: "/link",
-      img: "../../images/banner/Banner_2.webp",
+      img: "/images/banner/Banner_2.webp",
       title: "First slide label",
       description: "Nulla vitae elit libero, a pharetra augue mollis interdum",
     },
@@ -91,17 +91,17 @@ export const data = {
       sku: "FAS-01",
       link: "/product/detail",
       name: "Great product name goes here",
-      img: "../../images/products/tshirt_red_480x400.webp",
-      price: 180,
-      originPrice: 200,
-      discountPrice: 20,
-      discountPercentage: 10,
+      img: "/images/products/3DObjects/test.obj",
+      price: 99,
+      originPrice: 140,
+      discountPrice: 41,
+      discountPercentage: 30,
       isNew: true,
       isHot: false,
       star: 4,
       isFreeShipping: true,
       description:
-        "Nulla sodales sit amet orci eu vehicula. Curabitur metus velit, fermentum a velit ac, sodales egestas lacus. Etiam congue velit vel luctus dictum. Pellentesque at pellentesque sapien.",
+        "Ricki sodales sit amet orci eu vehicula. Curabitur metus velit, fermentum a velit ac, sodales egestas lacus. Etiam congue velit vel luctus dictum. Pellentesque at pellentesque sapien.",
     },
     {
       id: 2,
